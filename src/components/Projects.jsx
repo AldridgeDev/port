@@ -13,39 +13,63 @@ class Projects extends React.Component {
   state = {
     sections: [
       {
-        info: 'write your app little info here',
-        linkUrl: 'deployment link',
-      title: '  your app name',
+        info: 'Collaborated in the Design for the Chick-fil-A Lawton, OK website',
+        linkUrl: 'https://lawtoncfa.com/',
+      title: '  Chick-fil-a of Lawton, OK',
+   
+          id: 1,
+        },
+    {
+      info: 'A search tool for designers to browse and quickly select a ticket type. Selecting a ticket copies the data to the clipboard. Technologies used: HTML, CSS, Javascript',
+      linkUrl: 'https://antonioaldridge.townsquareinteractive.com/ticket-rating-extension',
+    title: '  Townsquare Designer Ticket Chrome Extension',
 
-      id: 1,
-    },
+    id: 2,
+  },
     {
-      info: 'write your app little info here',
-      linkUrl: 'deployment link',
-    title: '  your app name',
+      info: 'A scraper to identify images on websites that need to be optimized. Technologies used: Javascript/Node.js, HTML, CSS',
+      linkUrl: 'https://drive.google.com/file/d/10YipnivPb6DyffXXMa0geJ4lSR0hC2Ta/view?usp=sharing',
+    title: '  Node.js Website Scraper',
      
-      id: 2,     
+      id: 3,     
     },
     {
-      info: 'write your app little info here',
-      linkUrl: 'deployment link',
-    title: '  your app name',
+      info: 'Designed flyer templates for various marketing campaigns. These flyer templates are still used today at Townsquare. Technologies used: Adobe Suite, Photoshop',
+      linkUrl: 'https://antonioaldridge.townsquareinteractive.com/flyer-designs',
+    title: '  Designed Promotional Flyer Templates ',
     
-      id: 3,
+      id: 4,
     }
     , {
-      info: 'write your app little info here',
-      linkUrl: 'deployment link',
-    title: '  your app name',
- 
-        id: 4,
-      }
-      , {
-        info: ' “Try to learn something about everything and everything about something :) "',
-        linkUrl: '',
-        title: 'Work in Progres',
+        info: 'Each template consists of 5 designs for various screen sizes. Technologies used: Adobe Suite, Photoshop',
+        linkUrl: 'https://antonioaldridge.townsquareinteractive.com/ad-designs',
+        title: 'Designed Website and Social Media Ad Templates',
         id: 5,
-      }
+      },
+      {
+        info: 'Legal Website Template',
+        linkUrl: 'https://luna_legal03.townsquareinteractive.com/',
+        title: 'Designed Website Template for Law Firms',
+        id: 6,
+      } ,
+      {
+        info: 'Restaurant Website Template',
+        linkUrl: 'https://restaurant07.production.townsquareinteractive.com/',
+        title: 'Designed Website Template for Restaurants/Coffee Shops',
+        id: 7,
+      },
+       {
+        info: 'Home Remodeling Website Template',
+        linkUrl: 'https://kitchencentraldemo.production.townsquareinteractive.com/',
+        title: 'Designed Website Template for Home Remodeling Companies',
+        id: 8,
+      } ,
+      {
+       info: 'HVAC Website Template',
+       linkUrl: 'https://luna_syventure_template.production.townsquareinteractive.com/',
+       title: 'Designed Website Template for HVAC Companies',
+       id: 9,
+     } 
     ]
 
   }

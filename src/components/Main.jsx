@@ -14,16 +14,16 @@ const Main = () => {
 
             <div className='writ' >
                 <span style={{ color: 'white' }} className='hy' > Hey, </span>
-                <span style={{ color: '#E6E7E8' }} className='hy' > I'm Your Name. </span>  <br />
+                <span style={{ color: '#E6E7E8' }} className='hy' > I'm Antonio </span>  <br />
                 <br />
-                <span style={{ color: ' #DCE5E7' }} className='senior' >Senior Web Developer.</span>
+                <span style={{ color: ' #DCE5E7' }} className='senior' >UI/UX Designer & Front End Developer</span>
                 <br />
                 <br />
 
                 <ReactRotatingText
                     className='blink'
 
-                    items={['I love to create.',]}
+                    items={['I love to design.','I love to develop.', 'I love to code.', 'Let\'s chat about web development.']}
                     color={'grey'}
                     typingInterval={20}
                     pause={2000}

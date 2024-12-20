@@ -40,7 +40,7 @@ class Spinner extends React.Component {
         
       </div>
       <div className=" cofee"  >
-           <span  >Making Coffee......</span>
+           <span  >Herding Cats......</span>
            </div>
       </React.Fragment>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-scroll";
-import { ReactComponent as Log } from './images/log.svg';
+import { ReactComponent as Log } from './images/code.svg';
 
 import './navbar.css';
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={700}
                 > HOME</Link>
-                <Link
+                {/* <Link
                     className='option'
                     activeClass="active"
                     to="skills"
@@ -41,7 +41,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={-70}
                     duration={700}
-                >SKILLS</Link>
+                >SKILLS</Link> */}
 
                 <Link
                     className='option'
@@ -53,7 +53,7 @@ const Navbar = () => {
                     duration={700}
                 >PROJECTS</Link>
 
-                <Link
+                {/* <Link
                     className='optiondelete'
                     activeClass="active"
                     to="firstdiv"
@@ -61,7 +61,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={-70}
                     duration={700}
-                >ARTICLES</Link>
+                >ARTICLES</Link> */}
 
                 <Link
                     className='option'

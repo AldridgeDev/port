@@ -56,7 +56,7 @@ class Projectitem extends React.Component {
                   e.preventDefault();
                   window.open(this.props.linkUrl);
                 }}
-              > View Live</button>
+              > View</button>
 
             </div>
 

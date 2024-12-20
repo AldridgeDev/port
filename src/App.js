@@ -32,8 +32,8 @@ isLoading ?
      <Navbar/>
 <Main/>
 <Skills/>
-<Projects/>
 <Article/>
+<Projects/>
 <About/>
 <Footer/>
     </div>

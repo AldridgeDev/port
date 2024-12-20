@@ -10,18 +10,9 @@ const About = () => {
            
         </div>
         <div className='me br4' >
-             <h2 className='text' >Hola ! I'm Mughees, Senior Web Developer who loves to solve real-world problems
-              <span role='img' aria-label="Smiley" >😀 </span>,
-              and is seeking to find the opportunity to work in a fun and challenging working environment that will encourage me
-               to improve and learn new and necessary skills.I love adventures & taking risks so every second I search for a new thing 
-               to do which will help me open up for new opportunities as well as teach me new ideas about life. I am someone who is
-                consistently growing themselves and who takes the
-                time to continue learning and keep improving myself. I take responsibility for my actions and when things go wrong
-                 I don’t look to outside forces to blame, rather I’m someone who looks at where I can improve upon the next time 
-                 around. Pointing fingers solves nothing <span role='img' aria-label="sadtype">😅 </span>. I am committed 
-                 to building something larger, and someone who puts aside personal gain for the well-being of the group. besides
-                  that,  I also love to contribute to open source ;) In the end, 
-                  I am on a journey to never stop learning <span role='img' aria-label="correct" >✔</span>. </h2>
+             <div className='text' >I'm Antonio, a Senior UI/UX Designer & Front-End Developer with a passion for front-end development and crafting beautiful websites. I create web experiences that leave a lasting impression. Clients like Chick-fil-A and Ashley Furniture have trusted me to bring their visions to life with style, functionality, and a dash of creativity. 
+        </div>
+
         </div>
         
 
@@ -30,3 +21,5 @@ const About = () => {
 }
 
 export default About;
+
+

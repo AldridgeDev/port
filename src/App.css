@@ -13,3 +13,19 @@ body{
   border-bottom: 1px solid rgb(255, 255, 255);
 
 }
+
+.skills,
+.firstdiv,
+.gitwork {
+  display: none !important;
+}
+
+.br4 .text {
+  font-size: 1.5rem !important;
+}
+
+@media (max-width: 850px) {
+  .br4 .text {
+    font-size: 1rem !important;
+  }
+}
